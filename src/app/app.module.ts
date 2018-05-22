@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { StaticCardComponent } from './ui/static-card/static-card.component';
+import { DynamicCardComponent } from './ui/dynamic-card/dynamic-card.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StaticCardComponent,
+    DynamicCardComponent
   ],
   imports: [
     BrowserModule
